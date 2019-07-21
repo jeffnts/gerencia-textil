@@ -30,6 +30,10 @@ git clone https://github.com/jeffnts/gerencia-textil.git
 ```
 cd gerencia-textil
 ```
+##### Before going further, install the project dependencies:
+```
+npm install
+```
 
 ##### To start the project:
 ```
