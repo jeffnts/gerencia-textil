@@ -1,0 +1,1 @@
+export {default as EditPiece} from './EditPiece'

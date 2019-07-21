@@ -1,0 +1,24 @@
+{"name":"REF - 05","number":5,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689576109},"_id":"3N0o515slCFBUe7i"}
+{"name":"REF - 03","number":3,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689570821},"_id":"3W3alDvRVnZL2YlT"}
+{"name":"REF - 10","number":10,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689597408},"_id":"4yE60Bmmyguq1DBq"}
+{"name":"REF - 02","number":2,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689568443},"_id":"7SRUav32IxyhNdfa"}
+{"name":"REF - 07","number":7,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689581156},"_id":"7fPdjHerVAFFaruC"}
+{"name":"REF - 06","number":6,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689578502},"_id":"UazourOyws1M299j"}
+{"name":"REF - 01","number":1,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689551356},"_id":"Xf2Son356923WQ5m"}
+{"name":"REF - 9","number":9,"pieces":[{"amount":12,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689409090},"_id":"ZUkJzppWasHC2JvM"}
+{"name":"REF - 09","number":9,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689594830},"_id":"cYG7rVV9wyiXi3ah"}
+{"name":"REF - 04","number":4,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689573595},"_id":"lMwxFrVpWO0Q1E0r"}
+{"name":"REF - 08","number":8,"pieces":[{"amount":10,"piece":"WClaQMYoLUsgJ1MB"}],"workers":2,"createdAt":{"$$date":1562689583657},"_id":"thlWrQG3k2j5P23I"}
+{"$$deleted":true,"_id":"ZUkJzppWasHC2JvM"}
+{"$$deleted":true,"_id":"4yE60Bmmyguq1DBq"}
+{"$$deleted":true,"_id":"cYG7rVV9wyiXi3ah"}
+{"$$deleted":true,"_id":"thlWrQG3k2j5P23I"}
+{"$$deleted":true,"_id":"7fPdjHerVAFFaruC"}
+{"$$deleted":true,"_id":"UazourOyws1M299j"}
+{"$$deleted":true,"_id":"3N0o515slCFBUe7i"}
+{"$$deleted":true,"_id":"lMwxFrVpWO0Q1E0r"}
+{"$$deleted":true,"_id":"3W3alDvRVnZL2YlT"}
+{"$$deleted":true,"_id":"7SRUav32IxyhNdfa"}
+{"$$deleted":true,"_id":"Xf2Son356923WQ5m"}
+{"name":"REF - 01","number":1,"pieces":[{"amount":10,"piece":"bwcqpULt1SAOxWGO"}],"workers":2,"createdAt":{"$$date":1562690276886},"_id":"BG3xmaRhZJdgBPw0"}
+{"$$deleted":true,"_id":"BG3xmaRhZJdgBPw0"}
