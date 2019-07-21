@@ -16,6 +16,13 @@
 - [ReactJs](https://reactjs.org/)
     - It was made using Hooks, and functional components
 
+### Clone, download, the project:
+###### - If you don't have git installed on your machine, download it here: [git-download](https://git-scm.com/downloads)
+#### Type this command in your favorite terminal:
+```
+git clone https://github.com/jeffnts/gerencia-textil.git
+```
+
 ### Project scripts:
 #### Just follow the commands below:
 
