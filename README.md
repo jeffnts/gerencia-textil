@@ -26,7 +26,7 @@ git clone https://github.com/jeffnts/gerencia-textil.git
 ### Project scripts:
 #### Just follow the commands below:
 
-##### To enter in  the project folder:
+##### To go to  the project folder:
 ```
 cd gerencia-textil
 ```
