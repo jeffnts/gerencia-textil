@@ -74,7 +74,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-confirm-alert": "^2.4.1",
-    "react-dev-utils": "^9.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-highlighter": "^0.4.3",
     "react-hot-loader": "^4.8.8",
