@@ -67,7 +67,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "formik": "^1.5.7",
     "fs-extra": "^8.0.1",
-    "knex": "^0.18.3",
+    "knex": "^2.4.0",
     "moment": "^2.24.0",
     "nedb": "^1.8.0",
     "node-static": "^0.7.11",
