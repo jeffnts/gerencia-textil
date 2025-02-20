@@ -51,3 +51,4 @@ yarn start
 ```
 yarn make
 ```
+*The executable file will be located in the* `/out/make` *folder.*
