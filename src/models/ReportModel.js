@@ -1,26 +1,26 @@
-import path from 'path'
-import { connect, Document, EmbeddedDocument } from 'camo'
+import path from 'path';
+import { connect, Document, EmbeddedDocument } from 'camo';
 
-import Piece from './PieceModel'
-import Count from './CountModel'
+import Piece from './PieceModel';
+import Count from './CountModel';
 
 let database;
-const uri = 'nedb://'+path.join(__dirname,'..', 'public', 'database')
-connect(uri).then(function(db) {
+const uri = `nedb://${path.join(__dirname, '..', 'public', 'database')}`;
+connect(uri).then((db) => {
   database = db;
 });
 
 
-class pieces extends EmbeddedDocument{
-  constructor(){
-    super()
+class pieces extends EmbeddedDocument {
+  constructor() {
+    super();
     this.schema({
-      amount:{
-        type: Number
+      amount: {
+        type: Number,
       },
 
-      piece: Piece
-    })
+      piece: Piece,
+    });
   }
 }
 
@@ -30,46 +30,45 @@ export default class Report extends Document {
 
 
     this.schema({
-      name:{
-        type: String
+      name: {
+        type: String,
       },
 
-      number:{
+      number: {
         type: Number,
-        default: 0
+        default: 0,
       },
 
-      reference:{
-        type: String
+      reference: {
+        type: String,
       },
 
       pieces: [pieces],
 
-      workers:{
-        type: Number
+      workers: {
+        type: Number,
       },
 
       createdAt: {
         type: Date,
-        default: Date.now
-      }
-    })
+        default: Date.now,
+      },
+    });
   }
 
   static collectionName() {
     return 'reports';
   }
 
-  async preSave(){
+  async preSave() {
     const countNumber = Count.create({
-      number: 1
-    })
+      number: 1,
+    });
 
-    await countNumber.save()
+    await countNumber.save();
 
-    this.number = await Count.count({})
+    this.number = await Count.count({});
 
-    this.name = `REF - ${this.number < 10? '0'+this.number: this.number }`
+    this.name = `REF - ${this.number < 10 ? `0${this.number}` : this.number}`;
   }
-
 }

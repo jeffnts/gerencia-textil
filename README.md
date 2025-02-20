@@ -23,6 +23,13 @@
 git clone https://github.com/jeffnts/gerencia-textil.git
 ```
 
+
+**obs**: *use yarn to manage the packages*
+
+##### If you don't have Yarn installed, you can install it by following the instructions [here](https://classic.yarnpkg.com/en/docs/install/).
+
+
+
 ### Project scripts:
 #### Just follow the commands below:
 
@@ -32,15 +39,15 @@ cd gerencia-textil
 ```
 ##### Before going further, install the project dependencies:
 ```
-npm install
+yarn install
 ```
 
 ##### To start the project:
 ```
-npm start
+yarn start
 ```
 
 ##### To build the project and generate the executables files:
 ```
-npm run build
+yarn make
 ```

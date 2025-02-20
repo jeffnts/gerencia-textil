@@ -1,13 +1,13 @@
-import React, { useState, createContext } from 'react'
+import React, { useState, createContext } from 'react';
 
-export const LoadedPageContext = createContext()
+export const LoadedPageContext = createContext();
 
-export const LoadedPageProvider = ({children}) =>{
-  const [ isLoadedPage, setIsLoadedPage ] = useState(false)
-  const [ loadingMessage, setLoadingMessage ] = useState('')
-  const [ isPrintPage, setIsPrintPage ] = useState(false)
+export const LoadedPageProvider = ({ children }) => {
+  const [isLoadedPage, setIsLoadedPage] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState('');
+  const [isPrintPage, setIsPrintPage] = useState(false);
 
-  return(
+  return (
     <LoadedPageContext.Provider value={
       {
         isLoadedPage,
@@ -15,10 +15,11 @@ export const LoadedPageProvider = ({children}) =>{
         loadingMessage,
         setLoadingMessage,
         isPrintPage,
-        setIsPrintPage
+        setIsPrintPage,
       }
-    }>
+    }
+    >
       {children}
     </LoadedPageContext.Provider>
-  )
-}
+  );
+};
